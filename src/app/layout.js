@@ -12,6 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="./Cuthbertson_Favicon.png" sizes="any" />
       <body className={league.className}>{children}</body>
     </html>
   );
