@@ -6,7 +6,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 fixed nav">
+    <div className="flex justify-between items-center w-full h-20 px-4 nav">
       <div className="flex items-center">
         <Image
           src={"/Cuthbertson_Favicon.png"}
