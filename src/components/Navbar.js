@@ -5,34 +5,6 @@ import Image from "next/image";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const links = [
-    {
-      id: 1,
-      link_href: "/",
-      link: "home",
-    },
-    {
-      id: 2,
-      link_href: "/aboutus",
-      link: "about us",
-    },
-    {
-      id: 3,
-      link_href: "/newsroom",
-      link: "newsroom",
-    },
-    {
-      id: 4,
-      link_href: "/ourfilms",
-      link: "our films",
-    },
-    {
-      id: 5,
-      link_href: "/filmfestival",
-      link: "film festival",
-    },
-  ];
-
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 fixed nav">
       <div className="flex items-center">
