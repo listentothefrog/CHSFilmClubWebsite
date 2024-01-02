@@ -20,19 +20,19 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex md:items-center">
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/"}>Home</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/aboutus"}>About Us</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/newsroom"}>Newsroom</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/ourfilms"}>Our Films</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/filmfestival"}>Film Festival</Link>
         </li>
         <li className="px-4 cursor-pointer capitalize font-medium link-underline">
