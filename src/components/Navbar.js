@@ -14,28 +14,26 @@ const Navbar = () => {
           height={40}
           alt="Cuthbertson Logo"
         />
-        <h1 className="text-2xl font-signature ml-2 font-bold">
-          Cuthbertson Film Club
-        </h1>
+        <h1 className="ml-2 font-bold">Cuthbertson Film Club</h1>
       </div>
 
       <ul className="hidden md:flex md:items-center">
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/"}>Home</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/aboutus"}>About Us</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/newsroom"}>Newsroom</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/ourfilms"}>Our Films</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline hover:text-gray-800 ease-in-out">
           <Link href={"/filmfestival"}>Film Festival</Link>
         </li>
-        <li className="px-4 cursor-pointer capitalize font-medium link-underline">
+        <li className="text-sm md:text-md px-4 cursor-pointer capitalize font-medium link-underline">
           <Link href={"/joinfilmclub"}>
             <button className="px-4 py-2 bg-filmcluborange rounded-md font-semibold text-white">
               Join Film Club
